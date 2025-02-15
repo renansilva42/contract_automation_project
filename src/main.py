@@ -1,6 +1,6 @@
 # src/main.py
 from fastapi import FastAPI, Request
-from src.pipedrive.auth import PipedriveAuth
+from pipedrive.auth import PipedriveAuth
 
 app = FastAPI()
 pipedrive = PipedriveAuth()
